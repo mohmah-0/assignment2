@@ -44,7 +44,7 @@ void task2()
 	for (int i = 1; i <= sizeof(salaries); i++)
 	{
 		cout << "\nhow much salaries for nr" << i << "?:";
-		cin >> salaries[i - 1];
+		cin >> salaries[i - 1];//lol
 
 	}
 	avrage_salary(*salaries);
